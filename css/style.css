@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+:root{
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal:hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+
+    --Light-slate-blue-background: hsl(252, 100%, 67%);
+    --Light-royal-blue-background: hsl(241, 81%, 54%);
+
+    --Violet-blue-circle: hsla(256, 72%, 46%, 1);
+    --Persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+    
+    --font-size-paragraphs:18px;
+}
+.light-lavender{
+    color: var(--Light-lavender);
+}
+.bg-blue-light{
+    background-color: var(--Light-state-blue-background);
+}
+.bg-blue-dark{
+    background-color: var(--Light-royal-blue-background);
+}
+.bg-circle-violent{
+    background-color: var(--Violet-blue-circle);
+}
+.bg-circle-persian{
+    background-color: var(--Persian-blue-circle);
+}
+body{
+     font-family: "Hanken Grotesk", sans-serif;
+}
+.d-flex{
+    display: flex;
+}
+.container{
+    margin: 10% auto;
+    box-shadow: 5px 5px 15px 2px black;
+    width: fit-content;
+    padding: 0;
+       border-radius:17px;
+       overflow: hidden;
+
+}
+.dir-column{
+    flex-direction: column;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.bg-red{
+    background-color: var(--light-red);
+}
+.red{
+    color: var(--light-red);
+}
+.bg-orange{
+    background-color: var(--orangey-yellow);
+}
+.orange{
+    color: var(--orangey-yellow);
+}
+.bg-green{
+    background-color: var(--green-teal);
+}
+.green{
+    color: var(--green-teal);
+}
+.bg-blue{
+    background-color: var(--obalt-blue);
+}
+.blue{
+    color: var(--obalt-blue);
+}
+.bold{
+    font-weight: 900;
+}
+.fs-18{
+    font-size: 18px;
+}
+
+.left{
+    background: linear-gradient(to bottom, var(   --Light-slate-blue-background), var(--Light-royal-blue-background));
+    color: var(--White);
+    padding: 20px;
+    border-radius:17px;
+    height: 500px;
+}
+.screen{
+    background: linear-gradient(to bottom,var(--Violet-blue-circle),var(--Persian-blue-circle));
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.left p{
+    width: 300px;
+    text-align: center;
+}
+.right{
+    padding: 20px;
+    height: 500px;
+    border-radius: 17px;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.gap{
+    gap: 40px;
+}
+
+.right li{
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.btn{
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    background-color: var(--Dark-gray-blue);
+    color: white;
+}
